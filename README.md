@@ -26,6 +26,8 @@
 | **PostgreSQL** | <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" width="80"> | Potente base de datos relacional open-source |
 | **JWT** | <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" width="80"> | Autenticación segura con JSON Web Tokens |
 | **Docker** | <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" width="80"> | Contenedores para despliegue consistente |
+
+
 ## 🎬 Serie de Videos - Spring Boot Backend
 
 | Episodio | Duración | Descripción | Enlace |
@@ -37,8 +39,8 @@
 | **#5 - Conexión PostgreSQL con Neon** | 12 min | Configuración de base de datos serverless | [▶️ Ver](https://youtu.be/4Wa743X4MbI) |
 | **#6 - Estructura de Carpetas** | 6 min | Organización del proyecto | [▶️ Ver](https://youtu.be/jQvvXaaq17M) |
 | **#7 - Modelo de Entidades** | 45 min | Diseño de entidades principales | [▶️ Ver](https://youtu.be/wE7KIzzSYSU) |
-| **#8 - Flujo de Git Branches** | 7 min | Estrategia de ramas Git | [▶️ Ver](https://youtu.be/4Wa743X4MbI) |
-| **#9 - Login con Spring Security** | 12 min | Explicación del flujo de autenticación | [▶️ Ver](https://youtu.be/4Wa743X4MbI) |
+| **#8 - Flujo de Git Branches** | 7 min | Estrategia de ramas Git | [▶️ Ver](https://youtu.be/_0lhVKp4VZs) |
+| **#9 - Login con Spring Security** | 12 min | Explicación del flujo de autenticación | [▶️ Ver](https://youtu.be/8ZAz7p9DpIU) |
 
 <div class="alert alert-info" style="background-color: #e7f4ff; border-left: 4px solid #17a2b8; padding: 12px; margin-top: 15px; border-radius: 4px;">
   <strong>📌 Playlist Completa:</strong> 

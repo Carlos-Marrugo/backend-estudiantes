@@ -6,12 +6,6 @@
   <img src="https://img.shields.io/badge/Java-21-007396" alt="Java"/>
   <img src="https://img.shields.io/badge/JWT-0.11.5-000000" alt="JWT"/>
 </div>
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/a23d4891-0a6a-414b-8f25-e879db6592c3" width="600" alt="Diagrama Arquitectura"/>
-</div>
-
-
 ## 🔗 Guía Completa de Configuración
 
 📌 **¿Necesitas ayuda con la configuración?** Consulta nuestra guía detallada con todos los pasos:
@@ -54,3 +48,8 @@
 # 1. Clonar repositorio
 git clone (https://github.com/Carlos-Marrugo/backend-estudiantes)
 cd backend-estudiantes
+
+```
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/a23d4891-0a6a-414b-8f25-e879db6592c3" width="600" alt="Diagrama Arquitectura"/>
+</div>

@@ -1,9 +1,18 @@
 package com.backend.estudiantes.models;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 @Entity
 @Table(name = "usuario")
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+
 public class Usuario {
 
     @Id
@@ -28,4 +37,12 @@ public class Usuario {
 
     @Column(nullable = false, columnDefinition = "boolean default true")
     private boolean activo = true;
+
+    public Usuario(String nombre, String apellido, String email, String password, Role rol) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.email = email;
+        this.password = password;
+        this.rol = rol;
+    }
 }

@@ -1,0 +1,10 @@
+Casos de pruebas DetailsService
+
+1. Usuario no encontrado
+->El metodo lance UserNameNotFoundException
+-> Resultado de retorno: Optional.empty().
+
+2. Usuario encontrado (simular un usuario existente)
+-> El usedetails retornado tenga el mismo email y contraseña
+-> Rol del usuario se haya mapeado correctamente
+-> ROLE_ADMIN

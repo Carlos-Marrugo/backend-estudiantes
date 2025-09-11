@@ -53,3 +53,16 @@ cd backend-estudiantes
 <div align="center">
   <img src="https://github.com/user-attachments/assets/a23d4891-0a6a-414b-8f25-e879db6592c3" width="600" alt="Diagrama Arquitectura"/>
 </div>
+
+# Propiedades de la base de datos
+spring.datasource.url=jdbc:postgresql://ep-divine-bonus-ad89iq26-pooler.c-2.us-east-1.aws.neon.tech/neondb
+spring.datasource.username=neondb_owner
+spring.datasource.password=npg_tLu89hTEAGNy
+
+# Propiedades del driver
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+# Propiedades de Hibernate y JPA
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect

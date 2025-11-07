@@ -2,14 +2,14 @@ FROM eclipse-temurin:21-jdk-jammy as builder
 
 WORKDIR /workspace/app
 
-COPY mvnw .
-COPY .mvn .mvn
-COPY pom.xml .
+COPY estudiantes/mvnw .
+COPY estudiantes/.mvn .mvn
+COPY estudiantes/pom.xml .
 RUN chmod +x mvnw
 
 RUN ./mvnw dependency:go-offline
 
-COPY src src
+COPY estudiantes/src src
 
 RUN ./mvnw package -DskipTests
 

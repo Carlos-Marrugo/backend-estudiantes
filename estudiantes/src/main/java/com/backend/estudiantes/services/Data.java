@@ -17,7 +17,7 @@ public class Data {
     @Autowired
     private PasswordEncoder passwordEncoder;
 
-    @PostConstruct
+    /*@PostConstruct
     public void init() {
         Usuario admin = new Usuario();
         admin.setEmail("carlos.marrugo@unicolombo.edu.co");
@@ -26,6 +26,6 @@ public class Data {
         admin.setNombre("Carlos");
         admin.setApellido("Marrugo");
         usuarioRepository.save(admin);
-    }
+    }*/
 
 }

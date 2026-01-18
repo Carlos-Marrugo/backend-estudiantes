@@ -1,5 +1,6 @@
 package com.backend.estudiantes.utils;
 
+import com.backend.estudiantes.models.RefreshToken;
 import com.backend.estudiantes.models.Usuario;
 
 import java.util.HashMap;
@@ -7,9 +8,12 @@ import java.util.Map;
 
 public class AuthReponseBuilder {
 
-    public static Map<String, Object> buildAuthResponse(String token, Usuario usuario) {
+    public static Map<String, Object> buildAuthResponse(String token, String refreshToken, Usuario usuario) {
         Map<String, Object> response = new HashMap<>();
         response.put("token", token);
+        response.put("refreshToken", refreshToken);
+        response.put("tokenType", "Bearer");
+        response.put("expiresIn", 3600);
         response.put("usuario", buildUsuarioResponse(usuario));
         return response;
     }

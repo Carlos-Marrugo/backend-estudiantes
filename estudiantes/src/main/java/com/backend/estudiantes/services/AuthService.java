@@ -19,6 +19,7 @@ public class AuthService {
         Usuario usuario = usuarioRepository.findByEmail(email)
                 .orElseThrow(() -> new RuntimeException("Usuario no encontrado"));
 
+
         if(!passwordEncoder.matches(password, usuario.getPassword())) {
             throw new RuntimeException("Contraseña incorrecta");
         }

@@ -8,3 +8,8 @@ Casos de pruebas DetailsService
 -> El usedetails retornado tenga el mismo email y contraseña
 -> Rol del usuario se haya mapeado correctamente
 -> ROLE_ADMIN
+
+
+----------------------
+//primero se guarda contraseña hasheada.
+ -> CARLO123 -> sahajdkhksjahdjsahdksdkshadjkdsa
